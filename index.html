@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <nav class="flex items-center justify-between w-11/12 mx-auto py-5">
+            <img class="w-20 md:w-20 lg:50" src="images/logorewise-1.png" alt="">
+            <div class="flex ">
+                <div class="form-control h-8 w-32 md:h-12 md:w-48 lg:w-96">
+                    <input type="text" placeholder="Search" class="input input-bordered rounded-l-2xl rounded-r-none md:w-auto" />
+                  </div>
+                <select class="select hidden lg:block rounded-none border select-bordered  w-30 max-w-xs">
+                    <option disabled selected>All Categories</option>
+                    <option>Cameras</option>
+                    <option>Phones</option>
+                </select>
+                <img class="bg-black md:w-12 w-8 rounded-r-2xl p-2" src="images/search-icon.png" alt="">
+            </div>
+            <ul class="flex ">
+                <li class="mx-2 roboto">Login</li>
+                <li class="mx-2 roboto hidden md:block">Wishlist</li>
+                <li class="mx-2 roboto hidden md:block">Compare</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="banner-nav-container py-2 bg-red-600">
+                <div class="banner-nav flex text-base justify-between w-11/12 mx-auto items-center roboto font-bold">
+                    <div>
+                        <div class="dropdown">
+                            <label tabindex="0" class="m-1 text-white flex items-center text-sm">Comparison, Coupon Layouts &nbsp; <img class="w-3 h-3" src="images/down-chevron.png" alt=""></label>
+                            <ul tabindex="0" class="dropdown-content z-[1] menu px-4 shadow bg-base-100 rounded-box w-52">
+                              <li><a>Item 1</a></li>
+                              <li><a>Item 2</a></li>
+                              <li><a>Item 1</a></li>
+                              <li><a>Item 2</a></li>
+                              <li><a>Item 1</a></li>
+                              <li><a>Item 2</a></li>
+                              <li><a>Item 2</a></li>
+                              <li><a>Item 1</a></li>
+                              <li><a>Item 2</a></li>
+                            </ul>
+                        </div>
+        
+                        <div class="dropdown">
+                            <label tabindex="0" class="m-1 flex items-center text-white text-sm">Review Layouts &nbsp; <img class="w-3 h-3" src="images/down-chevron.png" alt=""></label>
+                            <ul tabindex="0" class="dropdown-content z-[1] menu px-4 shadow bg-base-100 rounded-box w-52">
+                              <li><a>Item 1</a></li>
+                              <li><a>Item 2</a></li>
+                              <li><a>Item 2</a></li>
+                              <li><a>Item 1</a></li>
+                              <li><a>Item 2</a></li>
+                            </ul>
+                        </div>
+        
+                        <div class="dropdown">
+                            <label tabindex="0" class="m-1 flex items-center text-white text-sm">CE shortcodes &nbsp; <img class="w-3 h-3" src="images/down-chevron.png" alt=""></label>
+                            <ul tabindex="0" class="dropdown-content z-[1] menu px-4 shadow bg-base-100 rounded-box w-52">
+                              <li><a>Item 1</a></li>
+                              <li><a>Item 2</a></li>
+                              <li><a>Item 2</a></li>
+                              <li><a>Item 2</a></li>
+                              <li><a>Item 2</a></li>
+                              <li><a>Item 1</a></li>
+                              <li><a>Item 2</a></li>
+                            </ul>
+                        </div>
+        
+                        <div class="dropdown">
+                            <label tabindex="0" class="m-1 flex items-center text-white text-sm">Mega Menu &nbsp; <img class="w-3 h-3" src="images/down-chevron.png" alt=""></label>
+                            <ul tabindex="0" class="dropdown-content z-[1] menu px-4 shadow bg-base-100 rounded-box w-52">
+                              <li><a>Item 1</a></li>
+                              <li><a>Item 2</a></li>
+                              <li><a>Item 2</a></li>
+                              <li><a>Item 1</a></li>
+                              <li><a>Item 2</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown">
+                            <label tabindex="0" class="m-1 flex items-center text-white text-sm">Unique Function &nbsp; <img class="w-3 h-3" src="images/down-chevron.png" alt=""></label>
+                            <ul tabindex="0" class="dropdown-content z-[1] menu px-4 shadow bg-base-100 rounded-box w-52">
+                              <li><a>Item 1</a></li>
+                              <li><a>Item 2</a></li>
+                              <li><a>Item 2</a></li>
+                              <li><a>Item 1</a></li>
+                              <li><a>Item 2</a></li>
+                              <li><a>Item 2</a></li>
+                              <li><a>Item 1</a></li>
+                              <li><a>Item 2</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <h1 class="text-white">Wishlist</h1>
+                </div>
+            </div>
+
+            <div class="hero flex flex-col justify-around p-10" style="background-image: url(./images/bg.webp);">
+                    <img src="images/banner-img.webp" alt="">
+                    <div class="mt-6">
+                        <h1 class="text-4xl font-bold text-white">Let’s Compare</h1>
+                        <h3 class="text-2xl font-normal text-cyan-400 py-3">Shop wise with price comparisons from Re:Wise</h3>
+                        <p class="text-white">Supports user reviews, price comparison, user generated links and price updates</p>
+                        <button class="bg-green-500 font-bold text-white py-3 px-4 mt-4 rounded-3xl">CHECK FEATURES</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
